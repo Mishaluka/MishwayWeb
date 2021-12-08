@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meat charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="C:\Users\misha\Desktop\My project\css\About.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Marko+One&family=Rampart+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--add Jquery for click cobtact botton show contact info-->
+    <script>
+        $(document).ready(function() {
+            $("#text1").hide(); /*hiding at first the contact text */
+            $("#btn1").on("click", function() { /*with click on btn contact text will show up*/
+                $("#text1").toggle(); /*toggle make working back all, with click showing will hidding */
+            })
+        });
+        $(document).ready(function() {
+            $("#text2").hide();
+            $("#btn2").on("click", function() {
+                $("#text2").toggle();
+            })
+        });
+        $(document).ready(function() {
+            $("#text3").hide();
+            $("#btn3").on("click", function() {
+                $("#text3").toggle();
+            })
+        });
+        $(document).ready(function() {
+            $("#text4").hide();
+            $("#btn4").on("click", function() {
+                $("#text4").toggle();
+            })
+        });
+    </script>
+    <title>About</title>
+</head>
+
+<body>
+    <!--header part with logo and links to other pages-->
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">MishwaY</div>
+
+                <nav class="nav">
+                    <a class="nav__link" href="Home.html">Home</a>
+                    <a class="nav__link" href="Men.html">Men</a>
+                    <a class="nav__link" href="Women.html">Women</a>
+                    <a class="nav__link" href="About.html">About</a>
+                    <a class="nav__link" href="Login.html">Login</a>
+                </nav>
+
+            </div>
+
+        </div>
+    </div>
+    <!--Section team-->
+    <section class="team container" id="team">
+        <!--title team-->
+        <h2 class="section-title team__title">Meet our team</h2>
+        <!--list of team-->
+        <ul class="team-list">
+            <li class="team-list__item">
+                <!--Image of team person-->
+                <img src="C:\Users\misha\Desktop\My project\images\About\unnamed[1].jpg" alt="team" class="team-item__img">
+                <!--job title of person-->
+                <p class="team-item__post">Stylist</p>
+                <!--Name of person-->
+                <h3 class="team-item__name">Anastasia Meyer</h3>
+                <!--contact button-->
+                <button class="block-item__btn" id="btn1">Contact </button>
+                <!--contact information-->
+                <p class="contact__info" id="text1">
+                    Phone number: 1113347988 </br>
+                    Email: AnastasiaMishway@gmail.com
+                </p>
+            </li>
+            <li class="team-list__item">
+                <img src="C:\Users\misha\Desktop\My project\images\About\unnamed[2].jpg" alt="team" class="team-item__img">
+                <p class="team-item__post">Stylist</p>
+                <h3 class="team-item__name">Alvaro Werner</h3>
+                <button class="block-item__btn" id="btn2">Contact </button>
+                <p class="contact__info" id="text2">
+                    Phone number: 2223679340 </br>
+                    Email: AlvaroMishway@gmail.com
+                </p>
+            </li>
+            <li class="team-list__item">
+                <img src="C:\Users\misha\Desktop\My project\images\About\unnamed[3].jpg" alt="team" class="team-item__img">
+                <p class="team-item__post">Stylist</p>
+                <h3 class="team-item__name">Lilian Middleton</h3>
+                <button class="block-item__btn" id="btn3">Contact </button>
+                <p class="contact__info" id="text3">
+                    Phone number: 3336883954 </br>
+                    Email: LilianMishway@gmail.com
+                </p>
+            </li>
+            <li class="team-list__item">
+                <img src="C:\Users\misha\Desktop\My project\images\About\unnamed[4].jpg" alt="team" class="team-item__img">
+                <p class="team-item__post">Stylist</p>
+                <h3 class="team-item__name">Dominick Williams</h3>
+                <button class="block-item__btn" id="btn4">Contact </button>
+                <p class="contact__info" id="text4">
+                    Phone number: 4443906525 </br>
+                    Email: DominickMishway@gmail.com
+                </p>
+            </li>
+        </ul>
+
+    </section>
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="container about__block">
+            <div class="about__description">
+                A personal shopper is also known as a "stylist" or "fashion consultant", and is one who provides image makeover and fashion consultation services to celebrities, fashion models, and personal clients with personal taste. They hand select the finest clothing
+                and accessories for public figures, models, celebrities as well as for their personal clients and help them to enhance their image and personal appearance. They are often assisted by a team of fashion designers.
+    </section>
+    </div>
+    </div>
+
+    </selectior>
+
+
+
+
+
+
+</body>
+
+</html>
