@@ -1,0 +1,100 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*logo*/
+
+.header__logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(89, 102, 102);
+    font-family: 'Audiowide', cursive;
+}
+
+
+/*header*/
+
+.header {
+    width: 100%;
+    padding-top: 30px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin-bottom: 10px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*links on page*/
+
+.nav__link {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    margin: 0 15px;
+    position: relative;
+    transition: color 0.2s linear;
+}
+
+
+/*after nav on the links*/
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    display: none;
+    background-color: maroon;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+
+/*change color */
+
+.nav__link:hover {
+    color: rgb(65, 6, 6)
+}
+
+
+/*made under line */
+
+.nav__link:hover:after {
+    display: block;
+}
+
+
+/*Boostrap base cards*/
+
+.card {
+    width: 18rem;
+    background-color: rgb(135, 143, 151);
+    margin-bottom: 5rem;
+    font-family: 'Audiowide', cursive;
+}
+
+.container__card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.btn {
+    width: 135px;
+    border: none;
+    background-color: rgb(105, 34, 22);
+}
